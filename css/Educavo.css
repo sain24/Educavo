@@ -1,0 +1,1696 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+   font-family: 'Oswald', sans-searif;
+   
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Roboto', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 900;
+}
+.tempalat{
+  width: 1519px;
+  margin: auto;
+}
+
+
+
+.Topbar {
+   background: #273c66;
+   color: white;
+   width: 100%;
+   font-size: 20px;
+   text-transform: capitalize;
+   overflow: hidden;
+ }
+ 
+.container {
+   width: 1100px;
+   margin: auto;
+ }
+ 
+.Topbar_Raper {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   
+ }
+ 
+.phone {
+   width: 36%;
+   font-size: 15px;
+   text-transform: capitalize;
+   margin-left: -31px;
+   border-left: 1px solid #ffffff75;
+   padding: 18px;
+ }
+ 
+.LOGIN_BOX {
+   width: 16%;
+   text-align: center;
+   font-size: 15px;
+   text-transform: capitalize;
+   cursor: pointer;
+   margin-left: 116px;
+ }
+ 
+ .Menu_List li a:after {
+  content: "+";
+  padding-left: 1px;
+}
+.Menu_List li a:hover:after {
+  content: "-";
+  padding-right: 2px;
+}
+
+
+
+ .apple_box {
+   width: 12%;
+   padding: 18px;
+   text-align: center;
+   font-size: 15px;
+   text-transform: capitalize;
+   background: #21a7d0;
+ }
+ 
+a {
+   text-decoration: none;
+ }
+ ul li{
+   list-style: none;
+ }
+ 
+.email {
+   width: 25%;
+   font-size: 15px;
+   border-left: 1px solid #fff9;
+   padding: 18px;
+ }
+ 
+.apple_box a {
+   color: white;
+ }
+ 
+.LOGIN_BOX i {
+   font-size: 14px;
+   width: 36px;
+   color: #21a7d0;
+ }
+ 
+.email i {
+   width: 20px;
+   color: #21a7d0;
+ }
+
+ .phone i{
+   width: 20px;
+   color: #21a7d0;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+.Logo {
+   width: 15%;
+ }
+ 
+
+ .Cavo_raper {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+.Logo img {
+   width: 100%;
+ }
+ 
+.CataGory {
+   width: 13%;
+   font-family: Oswald;
+   font-size: 16px;
+   text-transform: uppercase;
+   font-weight: 600;
+   margin-left: -7px;
+   cursor: pointer;
+ }
+ 
+.CataGory i {
+  width: 27px;
+  cursor: pointer;
+}
+.CataGory i:hover{
+  color: #21a7d0;
+  
+}
+ 
+.Menu {
+   width: 43%;
+   margin-right: -22px;
+ }
+
+ .socil_list {
+   width: 12%;
+   margin-left: 10px;
+   padding: 12px;
+ }
+ 
+
+.Menu_List{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-family: Oswald;
+   text-transform: uppercase;
+   font-size: 12px;
+   font-weight: 600;
+   margin-right: 23px;
+} 
+.List_raper{
+   display: flex;
+   align-content: center;
+   justify-content: space-between;
+   width: 100px;
+ }
+
+ 
+.Menu_List a{
+   color: black;
+ }
+ 
+.List_raper i {
+   font-size: 20px;
+ }
+ .List_raper {
+   width: 100%;
+ }
+ 
+
+ 
+.List_raper {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   cursor: pointer;
+ }
+ 
+
+ .Educavo_head {
+   width: 100%;
+   padding-top: 15px;
+   margin-bottom: 12px;
+ }
+ 
+.List_raper:hover i{
+   color: #21a7d0;
+   transition: 0.4s;
+ }
+ 
+.Menu_List li:hover a {
+   color: #21a7d0;
+   transition: 0.3s;
+ }
+
+ 
+.Menu_List i {
+   font-size: 12px;
+   margin-left: 8px;
+ }
+
+
+.apple_box:hover {
+  width: 12%;
+  font-size: 15px;
+  font-weight: 800;
+  background: #ff5200;
+  color: black;
+  text-shadow: 0px -5px 0px black;
+  transition: 1s;
+  border-radius: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Head_univarcity{
+  background: url(../photo/h2-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 697px;
+  margin-bottom: 65px;
+}
+
+.Raper_univarcity {
+  width: 100%;
+  color: white;
+  font-family: oswald;
+}
+
+.Raper_univarcity h2 {
+  width: 50%;
+  font-size: 34px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  padding-top: 198px;
+  margin-bottom: 20px;
+  font-family: Roboto;
+}
+
+.Raper_univarcity h1 {
+  width: 100%;
+  letter-spacing: 1px;
+  margin-bottom: 22px;
+  font-size: 60px;
+  font-weight: 900;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+span a {
+  color: white;
+  display: block;
+  width: 166px;
+  background: #21a7d0;
+  padding: 10px;
+  border-radius: 2px;
+  font-family: Roboto;
+  font-size: 17px;
+  margin-top: 62px;
+}
+span a:hover{
+  background: #ff5200;
+  text-shadow: -3px -3px 0px black;
+  transition: 0.4s;
+  font-family: Roboto;
+  transition: 1s;
+  font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Life_Raper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Life_head {
+  margin-bottom: 100px;
+  margin-top: -182px;
+}
+
+
+.Life_b0x_img img {
+  width: 100%;
+  position: relative;
+  height: 225px;
+}
+
+.Life_b0x_img {
+  width: 25%;
+  position: relative;
+}
+
+
+.XXXox {
+  position: absolute;
+  width: 100%;
+  background: #112958db;
+  height: 228px;
+  color: white;
+  text-align: center;
+  /*! margin: auto; */
+  top: -1px;
+}
+
+
+.XXXox p {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: 23%;
+  font-size: 26px;
+  margin-bottom: 17px;
+}
+
+
+.XXXox h4 {
+  text-transform: capitalize;
+  font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  font-family: Roboto;
+  font-weight: 600;
+}
+
+.XXXox img {
+  width: 10%;
+  height: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Info_Head {
+  margin-bottom: 50px;
+
+  height: 620px;
+  padding-top: 96px;
+  margin-top: -107px;
+}
+.Left_Part {
+  background:url(../photo/about-intro-bg.jpg);
+  width: 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 29px;
+  font-size: 27px;
+  font-family: Roboto;
+  color: white;
+  font-family: Roboto;
+  padding-top: 59px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.Left_Part span {
+  width: 100%;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  color: #21a7d0;
+}
+
+
+.Left_Part h1 {
+  font-family: Roboto;
+  width: 100%;
+  font-size: 37px;
+  margin-top: 17px;
+  line-height: 37px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+
+.Left_Part p {
+  font-family: Roboto;
+  font-size: 17px;
+  width: 100%;
+  line-height: 24px;
+  text-align: justify;
+  word-spacing: 1px;
+  margin-top: 16px;
+  margin-bottom: 52px;
+}
+
+
+.Read_Butn {
+  width: 54%;
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: Oswald;
+  word-spacing: 3px;
+  font-weight: 600;
+  text-align: center;
+  outline: none;
+  border: none;
+  background: #21a7d0;
+  margin-bottom: 59px;
+}
+.Read_Butn:hover{
+   background: #ff5200;
+  color: white;
+  font-weight: 800;
+  transition: 1s;
+  width: 50%;
+  border-radius: 20px 0px 20px;
+  margin-left:20px;
+  animation-duration: 3s;
+
+}
+
+.Info_Raper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 543px;
+}
+
+.Right_Part_Box_Raper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.Right_Part {
+  width: 70%;
+  height: 533px;
+}
+
+
+.Studen_Box {
+  width: 30%;
+  margin-left: 32px;
+  background: #fbf8cc;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Oswald;
+  height: 161px;
+  text-align: center;
+  display: grid;
+  border-radius: 3px;
+  box-shadow: 0px 0px 3px #0000007a;
+  height: 164px;
+}
+
+
+.Studen_Box p {
+  width: 100%;
+  font-size: 33px;
+  font-family: Roboto;
+  margin-top: 42px;
+  text-transform: capitalize;
+}
+
+.Studen_Box span {
+  margin-top: -35px;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.Studen_Box1{
+  width: 30%;
+  margin-left: 32px;
+  background:#e9fbd5;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Oswald;
+  height: 161px;
+  text-align: center;
+  display: grid;
+  border-radius: 3px;
+  box-shadow: 0px 0px 3px #00000085;
+    
+  }
+  .Studen_Box1 p {
+    width: 100%;
+    font-size: 33px;
+    font-family: Roboto;
+    margin-top: 42px;
+    text-transform: capitalize;
+  }
+  .Studen_Box1 span {
+    margin-top: -35px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  
+  
+.Studen_Box2{
+  width: 30%;
+  margin-left: 32px;
+  background:#355aa240;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Oswald;
+  height: 161px;
+  text-align: center;
+  display: grid;
+  border-radius: 3px;
+  box-shadow: 0px 0px 3px #00000096;
+    
+  }
+  .Studen_Box2 p {
+    width: 100%;
+    font-size: 33px;
+    font-family: Roboto;
+    margin-top: 42px;
+    text-transform: capitalize;
+  }
+  .Studen_Box2 span {
+    margin-top: -35px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  
+
+  .Right_Part_Img {
+    margin-left: 32px;
+  }
+  .Right_Part_Img_Raper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+     overflow: hidden;
+    
+  }
+  .Right_Part_Img_Raper img {
+    width: 49%;
+    transition: 1s;
+  }
+  
+
+  .Right_Part_Img_Raper:hover img {
+    transform: scale(1.1);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+.Deree_Full_Box {
+  background: #f3f8f9;;
+  padding-top: 100px;
+  margin-top: -31px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.Degree__Single_Raper {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  height: 354px;
+  margin-bottom: 14px;
+}
+.Degree_Single_Box {
+  border-radius: 3px;
+  width: 93%;
+  height: 293px;
+  margin-bottom: 26px;
+  padding: 13px;
+}
+
+
+.Degree_Single_Box a {
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 500;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 112px;
+  margin-left: 10px;
+  color: #21a7d0;
+}
+
+
+.Degree_Single_Box h2 {
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 700;
+  width: 16%;
+  line-height: 35px;
+  position: absolute;
+  margin-top: 164px;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Raper_box {
+  height: 340px;
+  width: 100%;
+  display: flex;
+}
+.img_Box {
+  width: 100%;
+  height: 341px;
+  position: relative;
+}
+.img_Box img {
+  width: 93%;
+  background: linear-gradient(to top,red,yellow);
+  overflow: hidden;
+}
+
+.content_Box {
+  margin-top: 0px;
+  position: absolute;
+  top: 6%;
+  left: 35px;
+  background: #112958c7;
+  height: 188px;
+  width: 266px;
+  padding-top: 87px;
+  border-radius: 2px;
+  opacity: 0;
+ transition: 1s;
+  cursor: pointer;
+}
+
+
+.content_Box:hover{
+opacity: 1;
+transform: scaleX(-10px);
+color: white;
+
+}
+.content_Box h1 {
+  font-family: Roboto;
+  font-size: 27px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.content_Box p {
+  width: 82%;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  line-height: 23px;
+}
+
+
+
+
+.content_Box a {
+  color: white;
+  font-family: Roboto;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  margin-left: 82px;
+  font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Header_Video {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 432px;
+}
+
+.Raper_Video {
+  display: flex;
+  justify-content: center;
+  width: 98%;
+  height: 400px;
+}
+
+
+.Left_Side_Video {
+  width: 100%;
+  position: relative;
+  height: 400px;
+}
+
+.Event_content span {
+  font-family: Roboto;
+  text-transform: uppercase;
+  color: #21a7d0;
+}
+.Left_Side_Video img {
+  width: 836px;
+  height: 400px;
+}
+
+.RIght_Side_Content {
+  width: 100%;
+  position: relative;
+  height: 352px;
+}
+
+.RIght_Side_Content img{
+  width: 680px;
+  height: 400px;
+}
+
+
+
+.Video_Icon {
+  position: relative;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+
+.Video_Icon {
+  position: relative;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  /*! align-items: center; */
+}
+.Video_Icon i {
+  position: absolute;
+  top: -131px;
+  left: 54px;
+  color: white;
+  font-size: 69px;
+  cursor: pointer;
+}
+
+
+.Video_Icon p {
+  color: white;
+  width: 188px;
+  position: absolute;
+  top: -115px;
+  left: 133px;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: justify;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.Right_Part_All_Content {
+  width: 77%;
+  position: absolute;
+  top: 90px;
+  left: 70px;
+}
+
+
+.Right_Part_All_Content h2 {
+  font-family: Roboto;
+  font-size: 35px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 14px;
+  width: 478px;
+}
+
+
+.Right_Part_All_Content p {
+  width: 491px;
+  font-size: 13px;
+  font-family: Roboto;
+  line-height: 23px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  word-spacing: 1px;
+}
+
+
+.Now_Botoon {
+  font-size: 28px;
+  width: 193px;
+  font-family: Roboto;
+  text-transform: capitalize;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  background: #21a7d0;
+  height: 43px;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+.Now_Botoon:hover {
+  font-size: 28px;
+  width: 193px;
+  font-family: Roboto;
+  text-transform: capitalize;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  background: #21a7d0;
+  height: 43px;
+  color: black;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.Helth_Box p:hover {
+  color: #21a7d0;
+  cursor: pointer;
+  transition:1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Event_Headeer {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  width: 100%;
+  height: 699px;
+  background: #dddddd73;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+
+.Left_Event {
+  width: 50%;
+}
+
+
+.Event_Rapeer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+.Event_content {
+  width: 50%;
+  font-family: Roboto;
+  color: black;
+  font-size: 16px;
+  padding-top: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 13px;
+  line-height: 32px;
+}
+
+
+.Event_content h4 {
+  font-family: Roboto;
+  font-size: 36px;
+  margin-bottom: 43px;
+  margin-top: 11px;
+}
+
+.Right_Event {
+  width: 100%;
+  margin-left: 95px;
+  font-family: Roboto;
+}
+
+
+.Learning_Raper {
+  display: flex;
+  margin-left: -54px;
+  margin-bottom: 99px;
+  background: #80808017;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+
+.\32 0_Box {
+  width: 100px;
+  text-align: center;
+  height: 87px;
+  background: #124dbf1a;
+  line-height: 36px;
+}
+
+
+.\32 0_Box span {
+  font-family: Roboto;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.\32 0_Box h1 {
+  font-family: Roboto;
+  font-size: 50px;
+}
+
+.Helth_Box {
+  width: 100%;
+  margin-left: 16px;
+  font-family: Roboto;
+  font-size: 12px;
+}
+
+.Helth_Box p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+  line-height: 25px;
+  word-spacing: 1px;
+}
+
+.Helth_Box span:hover {
+  color: #21a7d0;
+  cursor: pointer;
+  transition:1s;
+}
+
+
+.View_Box {
+  font-size: 20px;
+  font-weight: 400;
+  width: 100%;
+  margin-left: -24px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.logo_photo_1 {
+  padding: 5px;
+  height: 62px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+
+
+
+
+
+
+.Photo_Header {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background: #dddddd42;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.logo_photo_1 img {
+  width: 90%;
+}
+
+
+.Raper_Photo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Header_helps {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 550px;
+  padding-top: 100px;
+  background: #efe8db59;
+}
+
+.Raper_Helps {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Left_Helps h2 {
+  font-family: Roboto;
+  text-transform: capitalize;
+  padding-top: 10px;
+  width: 100%;
+  font-size: 21px;
+  padding-bottom: 10px;
+  color: #112958;
+}
+
+.Left_Helps p {
+  width: 80%;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.Left_Helps {
+  width: 50%;
+  /*! margin-top: 58px; */
+}
+
+.Left_Helps a {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: white;
+  background: #21a7d0;
+  padding: 10px;
+  margin-top: 17px;
+  display: block;
+  width: 209px;
+  text-align: center;
+  border-radius: 3px;
+}
+.Left_Helps a:hover{
+  background:#00a6d8;
+  color: black;
+  transition: 1s;
+  font-weight: 600;
+}
+.Img_left{
+  width: 82%;
+  overflow: hidden;
+}
+.Img_left:hover img{
+  transition: 1s;
+  transform:scale(1.1);
+}
+
+
+
+.Right_Hepls {
+  width: 60%;
+  margin-top: -158px;
+}
+
+.Raper_right_helps {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 107px;
+}
+
+
+.Right_content_icon p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 30px;
+}
+.Right_content_icon h3 {
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Roboto;
+  font-size: 21px;
+}
+.Right_content_icon h6 {
+  font-family: Roboto;
+  margin-left: 30px;
+  font-size: 13px;
+  font-weight: 500;
+  width: 170px;
+}
+
+
+.Raper_Part_tow {
+  margin-top: 27px;
+  display: flex;
+}
+
+.Right_photo{
+  overflow: hidden;
+  transition: 1s;
+}
+.Right_photo:hover img{
+  transform: scale(1.1);
+
+}
+
+.Right_photo img {
+  width: 99%;
+  transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Event_Header {
+  background: #dddddd4a;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+.Event_Box {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 74px;
+}
+
+.Event_Box h4 {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #21a7d0;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  word-spacing: 4px;
+  cursor: pointer;
+}
+
+
+.Event_Box h1 {
+  font-family: Roboto;
+  font-size: 43px;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 37px;
+  color: #273c66;
+}
+
+
+
+.Raper_Admin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  width:  100%;
+}
+
+.Admin_Box {
+  width:  100%;
+}
+
+.Admin_Img {
+  width: 341px;
+  background: #ffffffa3;
+  margin-left: -10px;
+  height: 537px;
+}
+
+.Admin_Img img {
+  width: 84%;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-left: 29px;
+}
+
+.Admin_Img:hover img {
+    transition: 1s;
+    transform:scale(1.1);
+}
+
+
+.Admin_Img h6 {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: Roboto;
+  font-weight: 400;
+  margin-left: -54px;
+  margin-top: 10px;
+  margin-bottom: 14px;
+  color: #273c66;
+}
+.Icon_Box i {
+  width: 23px;
+  margin-left: 73px;
+}
+
+
+.Admin_Img h3 {
+  font-size: 23px;
+  font-family: Roboto;
+  width: 94%;
+  text-transform: capitalize;
+  font-weight: 700;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+
+.Icon_Box {
+  width: 100%;
+}
+
+
+.Admin_Img p {
+  font-size: 18px;
+  font-family: Roboto;
+  width: 67%;
+  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 26px;
+  word-spacing: -1px;
+  margin-left: 15px;
+  margin-bottom: 42px;
+  color: black;
+}
+
+.Admin_Img h3:hover {
+  color: #21a7d0;
+  transition: 0.3s;
+}
+
+.Raper_command {
+  width: 94%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+
+.Raper_command h2 {
+  font-size: 18px;
+  font-family: Roboto;
+  margin-left: 15px;
+  color: #273c66;
+}
+
+
+.Raper_command span {
+  color: #273c66;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  font-size: 17px;
+  font-family: Roboto;
+  font-weight: 600;
+  width:40%;
+}
+
+
+
+.Raper_command h2:hover {
+  color: #21a7d0;
+  transition: 0.2s;
+}
+
+.Raper_command span:hover {
+  color: #21a7d0;
+  transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Header_New {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.Raper_New{
+  background: #007bff;
+  display: flex;
+  width: 100%;
+  padding-top: 49px;
+  padding-bottom: 55px;
+  height: 100px;
+  position: relative;
+  top: -65px;
+}
+
+
+.New_Box {
+  width: 59%;
+  margin-left: 70px;
+}
+
+
+.New_Box h4 {
+  width: 42%;
+  font-family: Roboto;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: white;
+}
+
+
+.New_Box h2 {
+  width: 61%;
+  font-size: 31px;
+  text-transform: capitalize;
+  font-family: Roboto;
+  color: white;
+  line-height: 35px;
+  margin-bottom: 14px;
+}
+
+
+.Login_box {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+
+.Login_box input {
+  padding: 16px;
+  width: 307px;
+  text-transform: capitalize;
+  height: 16px;
+  outline: none;
+  border: none;
+}
+
+
+.Login_box button {
+  width: 152px;
+  padding: 16px;
+  margin-left: -195px;
+  outline: none;
+  border: none;
+  height: 48px;
+  background-color: #112958;
+  text-transform: capitalize;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-family: Roboto;
+
+}
+.Login_box button:hover{
+  background: tomato;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.Admin_Img hr {
+  width: 81%;
+  margin-left: 15px;
+  color: white;
+  height: 1px;
+  background: #0000002e;
+  margin-bottom:10px;
+}
+
+
+
+
+
+
+
+
+
+#Header_Footer{
+  background:url(../footer/footer-bg.png);
+  background-color: #273c66;
+  background-size: cover;
+  margin-top: -235px;
+  padding: 136px;
+  height: 342px;
+}
+
+.Raper_Footer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.Footer_Box {
+  width: 100%;
+  margin: 13px;
+  border: 1px solid #f2f1f742;
+  padding: 15px;
+}
+
+.explore {
+  color: white;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+
+.Footer_Menu {
+  color: white;
+  text-transform: capitalize;
+  font-family: Roboto;
+  line-height: 37px;
+  font-size: 14px;
+}
+
+
+.Footer_Menu ul li i {
+  width: 19px;
+  font-size: 9px;
+  color: #007bff;
+}
+
+
+.Footer_Menu li:hover {
+  color: #007bff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+#Header_Footer hr {
+  color: #ffffff4a;
+  width: 98%;
+  margin: auto;
+  margin-top: 22px;
+}
+
+
+.Footer_Icon_Box i {
+  font-size: 14px;
+  width: 29px;
+  height: 26px;
+  text-align: center;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  background: #007bff;
+  border-radius: 17px;
+  color: white;
+  cursor: pointer;
+}
+
+.Footer_Icon_Box i:hover{
+    color: white;
+    background: #112958;
+     transition: 1s;
+     border: 1px solid white;
+     border-radius: 17px;
+     font-size: 14px;
+     width: 29px;
+     height: 26px;
+}
+
+
+.MIdel_Box span {
+  text-transform: capitalize;
+  color: yellow;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+
+
+
+
+
+
+
+.Footer_logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 62px;
+  /*! border: 1px solid white; */
+}
+
+.Eduvaco_logo img {
+  width: 100%;
+}
+
+.Eduvaco_logo {
+  width: 26%;
+  margin-left: 15px;
+}
+
+
+.MIdel_Box {
+  width: 38%;
+  text-transform: uppercase;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  font-family: Roboto;
+  font-weight: 400;
+  text-align: center;
+  margin: auto;
+  word-spacing: 3px;
+}
+
+
+
+.Footer_Icon_Box a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  color: white;
+  font-size: 33px;
+}
+
+.Footer_Icon_Box {
+  display: flex;
+  width: 23%;
+  padding: 7px;
+  text-align: center;
+  justify-content: space-between;
+}
